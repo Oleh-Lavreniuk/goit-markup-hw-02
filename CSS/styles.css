@@ -1,5 +1,19 @@
+/* CSS rules to specify families
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
 /* Характерные черты компании */
 .visually-hidden {
   position: fixed;
   transform: scale(0);
 }
+
+.list {
+  list-style: none;
+}
+
+/* ===HEADER=== */
+
+/* ===MAIN=== */
+
+/* ===FOOTER=== */
