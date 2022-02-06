@@ -21,6 +21,7 @@ font-family: 'Roboto', sans-serif; */
 
 /* ===HEADER=== */
 .header {
+  color: #ffffff;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -28,7 +29,7 @@ font-family: 'Roboto', sans-serif; */
   font-size: 26px;
   line-height: 1.19;
   line-height: 100%;
-  align: Left;
+  align: left;
   vertical-align: Top;
   letter-spacing: 3%;
   color: #000000;
@@ -39,15 +40,29 @@ font-family: 'Roboto', sans-serif; */
 }
 .nav-list-item {
 }
-.header-contacts {
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: #2196f3;
+}
+.header-contacts-list-item {
+  color: #757575;
 }
 .header-contacts-list {
 }
-.header-contacts-list-email {
-}
-.header-contacts-list-tel {
+.header-contacts-list-item {
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 2%;
 }
 
+.header-contacts-list-item:hover,
+.header-contacts-list-item:focus {
+  color: #2196f3;
+}
 /* ===MAIN=== */
 
 /* ===FOOTER=== */
