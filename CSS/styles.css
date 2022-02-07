@@ -148,6 +148,38 @@ font-family: 'Roboto', sans-serif; */
 }
 /* ===MAIN END=== */
 
+/* =====PORTFOLIO-MAIN (H1 + SECTION)===== */
+.port-main {
+}
+/* ===H1 - hidden=== */
+.port-prj-title {
+}
+
+/* ====SECTION "port-projects" (UL-1 + UL-2)==== */
+.port-projects {
+}
+
+/* ==UL-1 "prj-type"== */
+.port-prj-type {
+}
+.port-type-item {
+}
+.port-item-btn {
+}
+
+/* ==UL-2 "prj-list"== */
+.port-prj-list {
+}
+.port-list-item {
+}
+.port-item-img {
+}
+.port-item-title {
+}
+.port-item-type {
+}
+/* =====PORTFOLIO-MAIN END (H1 + SECTION)===== */
+
 /* ===FOOTER=== */
 .footer {
   background-color: #2f303a;
