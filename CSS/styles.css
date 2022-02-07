@@ -2,7 +2,8 @@
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
-/* Характерные черты компании */
+/* Main - Характерные черты компании */
+/* Portfolio - Projects List */
 .visually-hidden {
   position: fixed;
   transform: scale(0);
@@ -23,56 +24,89 @@ font-family: 'Roboto', sans-serif; */
 .header {
   background-color: #ffffff;
 }
+/* Logo used to header and footer */
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: bold;
+  font-style: normal;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  line-height: 100%;
-  align: left;
-  vertical-align: Top;
-  letter-spacing: 3%;
-  color: #000000;
+  letter-spacing: 0.03em;
 }
 .logo-w {
   color: #2196f3;
 }
-.logo-s {
+.h-logo-s {
+  color: #000000;
 }
-.logo:hover,
+/* .logo:hover,
 .logo:focus {
   color: #2196f3;
-}
+} */
 
-.navigation {
+.navigation,
+.header-contacts-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-list {
 }
 .nav-list-item {
+  color: #212121;
 }
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: #2196f3;
 }
-.header-contacts-list {
+.header-contacts {
 }
 .header-contacts-list-item {
-  font-style: Medium;
-  font-size: 14px;
-  line-height: 1.14;
-  line-height: 100%;
-  align: Left;
-  vertical-align: Top;
-  letter-spacing: 2%;
   color: #757575;
 }
-
 .header-contacts-list-item:hover,
 .header-contacts-list-item:focus {
   color: #2196f3;
 }
+/* ===HEADER END=== */
+
 /* ===MAIN=== */
+
+/* ===MAIN END=== */
 
 /* ===FOOTER=== */
 .footer {
+  background-color: #2f303a;
 }
+.f-logo-s {
+  color: #ffffff;
+}
+.footer-list {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-list-item {
+}
+.address {
+}
+.address-link {
+  font-style: normal;
+  color: #ffffff;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #2196f3;
+}
+.footer-list-item-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-list-item-link:hover,
+.footer-list-item-link:focus {
+  color: #2196f3;
+}
+/* ===FOOTER END=== */
