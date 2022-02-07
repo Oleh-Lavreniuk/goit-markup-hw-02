@@ -73,7 +73,79 @@ font-family: 'Roboto', sans-serif; */
 /* ===HEADER END=== */
 
 /* ===MAIN=== */
+/* MAIN - SECTION-1 "hero" */
+.main {
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-btn {
+  background-color: #2196f3;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
 
+/* MAIN - SECTION-2 "activity" (DIV-1, DIV-2) */
+/* DIV-1 - "description" */
+.activity {
+}
+.description {
+}
+.desc-title {
+}
+.desc-list {
+}
+.desc-list-item {
+}
+.desc-item-title {
+}
+.desc-item-text {
+}
+
+/* DIV-2 - "workspace" */
+.workspace {
+}
+.workspace-title {
+}
+.work-title-list {
+}
+.work-list-item {
+}
+.work-item-img {
+}
+
+/* MAIN - SECTION-3 "staff" */
+.staff {
+}
+.staff-title {
+}
+.staff-list {
+}
+.staff-list-person {
+}
+.staff-person-foto {
+}
+.staff-person-name {
+}
+.staff-person-position {
+}
 /* ===MAIN END=== */
 
 /* ===FOOTER=== */

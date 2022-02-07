@@ -15,6 +15,7 @@
   </head>
 
   <body class="main-body">
+    /* ===HEADER=== */
     <header class="header">
       <a id="WebStudio" href="#WebStudio" lang="en" class="logo link">
         <span class="logo-w">Web</span><span class="h-logo-s">Studio</span>
@@ -46,41 +47,45 @@
       </ul>
     </header>
 
-    <main>
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+    /* ===MAIN=== */
+    <main class="main">
+      /* MAIN - SECTION-1 "hero" */
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="hero-btn" type="button">Заказать услугу</button>
       </section>
 
-      <section>
+      /* MAIN - SECTION-2 "activity" (DIV-1, DIV-2) */
+      <section class="activity">
         <!--Характерные черты компании-->
-        <div>
-          <h2 class="visually-hidden">Ориентиры компании</h2>
-          <ul class="list">
-            <li>
-              <h3>Внимание к деталям</h3>
-              <p>
+        /* DIV-1 - "description" */
+        <div class="description">
+          <h2 class="desc-title visually-hidden">Ориентиры компании</h2>
+          <ul class="desc-list list">
+            <li class="desc-list-item">
+              <h3 class="desc-item-title">Внимание к деталям</h3>
+              <p class="desc-item-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
-              <h3>Пунктуальность</h3>
-              <p>
+            <li class="desc-list-item">
+              <h3 class="desc-item-title">Пунктуальность</h3>
+              <p class="desc-item-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
-              <h3>Планирование</h3>
-              <p>
+            <li class="desc-list-item">
+              <h3 class="desc-item-title">Планирование</h3>
+              <p class="desc-item-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
-              <h3>Современные технологии</h3>
-              <p>
+            <li class="desc-list-item">
+              <h3 class="desc-item-title">Современные технологии</h3>
+              <p class="desc-item-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -88,27 +93,31 @@
           </ul>
         </div>
 
-        <div>
-          <h2>Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
+        /* DIV-2 - "workspace" */
+        <div class="workspace">
+          <h2 class="workspace-title">Чем мы занимаемся</h2>
+          <ul class="work-title-list list">
+            <li class="work-list-item">
               <img
+                class="work-item-img"
                 src="./images/what-we-doing/box-1.jpg"
                 alt="what-we-doing"
                 width="370"
                 height="294"
               />
             </li>
-            <li>
+            <li class="work-list-item">
               <img
+                class="work-item-img"
                 src="./images/what-we-doing/box-2.jpg"
                 alt="what-we-doing"
                 width="370"
                 height="294"
               />
             </li>
-            <li>
+            <li class="work-list-item">
               <img
+                class="work-item-img"
                 src="./images/what-we-doing/box-3.jpg"
                 alt="what-we-doing"
                 width="370"
@@ -119,53 +128,59 @@
         </div>
       </section>
 
-      <section>
-        <h2>Наша команда</h2>
-        <ul class="list">
-          <li>
+      /* MAIN - SECTION-3 "staff" */
+      <section class="staff">
+        <h2 class="staff-title">Наша команда</h2>
+        <ul class="staff-list list">
+          <li class="staff-list-person">
             <img
+              class="staff-person-foto"
               src="./images/our-team/1-igor.jpg"
               alt="Игорь Демьяненко"
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p lang="en">Product Designer</p>
+            <h3 class="staff-person-name">Игорь Демьяненко</h3>
+            <p lang="en" class="staff-person-position">Product Designer</p>
           </li>
-          <li>
+          <li class="staff-list-person">
             <img
+              class="staff-person-foto"
               src="./images/our-team/2-olga.jpg"
               alt="Ольга Репина"
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p lang="en">Frontend Developer</p>
+            <h3 class="staff-person-name">Ольга Репина</h3>
+            <p lang="en" class="staff-person-position">Frontend Developer</p>
           </li>
-          <li>
+          <li class="staff-list-person">
             <img
+              class="staff-person-foto"
               src="./images/our-team/3-nikolai.jpg"
               alt="Николай Тарасов"
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p lang="en">Marketing</p>
+            <h3 class="staff-person-name">Николай Тарасов</h3>
+            <p lang="en" class="staff-person-position">Marketing</p>
           </li>
-          <li>
+          <li class="staff-list-person">
             <img
+              class="staff-person-foto"
               src="./images/our-team/4-michael.jpg"
               alt="Михаил Ермаков"
               width="270"
               height="260"
             />
-            <h3>Михаил Ермаков</h3>
-            <p lang="en">UI Designer</p>
+            <h3 class="staff-person-name">Михаил Ермаков</h3>
+            <p lang="en" class="staff-person-position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
+    /* ===FOOTER=== */
     <footer class="footer">
       <a href="#WebStudio" lang="en" class="logo link">
         <span class="logo-w">Web</span><span class="f-logo-s">Studio</span>
