@@ -21,7 +21,7 @@ font-family: 'Roboto', sans-serif; */
 
 /* ===HEADER=== */
 .header {
-  color: #ffffff;
+  background-color: #ffffff;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -34,6 +34,16 @@ font-family: 'Roboto', sans-serif; */
   letter-spacing: 3%;
   color: #000000;
 }
+.logo-w {
+  color: #2196f3;
+}
+.logo-s {
+}
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+
 .navigation {
 }
 .nav-list {
@@ -43,9 +53,6 @@ font-family: 'Roboto', sans-serif; */
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: #2196f3;
-}
-.header-contacts-list-item {
-  color: #757575;
 }
 .header-contacts-list {
 }
@@ -57,6 +64,7 @@ font-family: 'Roboto', sans-serif; */
   align: Left;
   vertical-align: Top;
   letter-spacing: 2%;
+  color: #757575;
 }
 
 .header-contacts-list-item:hover,
