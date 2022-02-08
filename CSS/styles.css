@@ -28,7 +28,7 @@ font-family: 'Roboto', sans-serif; */
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -95,7 +95,7 @@ font-family: 'Roboto', sans-serif; */
 .hero-btn {
   background-color: #188ce8;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
@@ -124,7 +124,7 @@ font-family: 'Roboto', sans-serif; */
 .desc-item-title {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -132,7 +132,7 @@ font-family: 'Roboto', sans-serif; */
 }
 .desc-item-text {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -144,7 +144,7 @@ font-family: 'Roboto', sans-serif; */
 }
 .workspace-title {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -163,7 +163,7 @@ font-family: 'Roboto', sans-serif; */
 }
 .staff-title {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -186,7 +186,7 @@ font-family: 'Roboto', sans-serif; */
 }
 .staff-person-position {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -237,14 +237,14 @@ font-family: 'Roboto', sans-serif; */
 }
 .port-item-title {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .port-item-type {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -261,7 +261,7 @@ font-family: 'Roboto', sans-serif; */
 }
 .footer-list {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
