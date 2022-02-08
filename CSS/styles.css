@@ -53,12 +53,17 @@ font-family: 'Roboto', sans-serif; */
 .nav-list {
 }
 .nav-list-item {
-  color: #212121;
+  font-family: inherit;
+  color: inherit;
 }
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: #2196f3;
 }
+.nav-list .nav-list-item.current {
+  color: #2196f3;
+}
+
 .header-contacts {
 }
 .header-contacts-list-item {
@@ -207,6 +212,8 @@ font-family: 'Roboto', sans-serif; */
 .port-type-item {
 }
 .port-item-btn {
+  font-family: inherit;
+  color: inherit;
   background-color: #f5f4fa;
   font-style: normal;
   font-weight: 500;
