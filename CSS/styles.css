@@ -90,7 +90,7 @@ font-family: 'Roboto', sans-serif; */
   color: #ffffff;
 }
 .hero-btn {
-  background-color: #2196f3;
+  background-color: #188ce8;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -100,6 +100,10 @@ font-family: 'Roboto', sans-serif; */
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #188ce8;
 }
 
 /* MAIN - SECTION-2 "activity" (DIV-1, DIV-2) */
@@ -115,14 +119,33 @@ font-family: 'Roboto', sans-serif; */
 .desc-list-item {
 }
 .desc-item-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .desc-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /* DIV-2 - "workspace" */
 .workspace {
 }
 .workspace-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .work-title-list {
 }
@@ -133,18 +156,39 @@ font-family: 'Roboto', sans-serif; */
 
 /* MAIN - SECTION-3 "staff" */
 .staff {
+  background: #f5f4fa;
 }
 .staff-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .staff-list {
 }
 .staff-list-person {
+  background-color: #ffffff;
 }
 .staff-person-foto {
 }
 .staff-person-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .staff-person-position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /* ===MAIN END=== */
 
@@ -165,6 +209,18 @@ font-family: 'Roboto', sans-serif; */
 .port-type-item {
 }
 .port-item-btn {
+  background-color: #f5f4fa;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.port-item-btn:hover,
+.port-item-btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 /* ==UL-2 "prj-list"== */
@@ -175,8 +231,19 @@ font-family: 'Roboto', sans-serif; */
 .port-item-img {
 }
 .port-item-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .port-item-type {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /* =====PORTFOLIO-MAIN END (H1 + SECTION)===== */
 
