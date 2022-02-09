@@ -27,7 +27,6 @@ font-family: 'Roboto', sans-serif; */
 /* Logo used to header and footer */
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -44,7 +43,6 @@ font-family: 'Roboto', sans-serif; */
 
 .navigation,
 .header-contacts-list {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -53,7 +51,6 @@ font-family: 'Roboto', sans-serif; */
 .nav-list {
 }
 .nav-list-item {
-  font-family: inherit;
   color: inherit;
 }
 .nav-list-item:hover,
@@ -83,7 +80,6 @@ font-family: 'Roboto', sans-serif; */
   background-color: #2f303a;
 }
 .hero-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -93,14 +89,10 @@ font-family: 'Roboto', sans-serif; */
   color: #ffffff;
 }
 .hero-btn {
-  background-color: #188ce8;
-  font-style: normal;
+  background-color: #2196f3;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
@@ -122,8 +114,6 @@ font-family: 'Roboto', sans-serif; */
 .desc-list-item {
 }
 .desc-item-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -131,7 +121,6 @@ font-family: 'Roboto', sans-serif; */
   text-transform: uppercase;
 }
 .desc-item-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -143,7 +132,6 @@ font-family: 'Roboto', sans-serif; */
 .workspace {
 }
 .workspace-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -162,7 +150,6 @@ font-family: 'Roboto', sans-serif; */
   background: #f5f4fa;
 }
 .staff-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -177,7 +164,6 @@ font-family: 'Roboto', sans-serif; */
 .staff-person-foto {
 }
 .staff-person-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -185,7 +171,6 @@ font-family: 'Roboto', sans-serif; */
   letter-spacing: 0.03em;
 }
 .staff-person-position {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -198,12 +183,12 @@ font-family: 'Roboto', sans-serif; */
 /* =====PORTFOLIO-MAIN (H1 + SECTION)===== */
 .port-main {
 }
-/* ===H1 - hidden=== */
-.port-prj-title {
-}
 
 /* ====SECTION "port-projects" (UL-1 + UL-2)==== */
 .port-projects {
+}
+/* ===H1 - hidden=== */
+.port-prj-title {
 }
 
 /* ==UL-1 "prj-type"== */
@@ -213,13 +198,10 @@ font-family: 'Roboto', sans-serif; */
 }
 .port-item-btn {
   font-family: inherit;
-  color: inherit;
   background-color: #f5f4fa;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .port-item-btn:hover,
@@ -236,14 +218,12 @@ font-family: 'Roboto', sans-serif; */
 .port-item-img {
 }
 .port-item-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .port-item-type {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -260,7 +240,6 @@ font-family: 'Roboto', sans-serif; */
   color: #ffffff;
 }
 .footer-list {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -269,9 +248,9 @@ font-family: 'Roboto', sans-serif; */
 .footer-list-item {
 }
 .address {
+  font-style: normal;
 }
 .address-link {
-  font-style: normal;
   color: #ffffff;
 }
 .address-link:hover,
