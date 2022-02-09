@@ -110,6 +110,7 @@ font-family: 'Roboto', sans-serif; */
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
   color: var(--hero-text-color);
 }
 .hero-btn:hover,
@@ -212,6 +213,7 @@ font-family: 'Roboto', sans-serif; */
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .port-item-btn:hover,
 .port-item-btn:focus {
